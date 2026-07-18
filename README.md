@@ -77,6 +77,12 @@ This project integrates mechanical design, embedded systems, and automation to d
 
 ---
 
+## System Block Diagram
+
+![Block Diagram](images/block_diagram.png)
+
+---
+
 ## 📂 System Architecture
 
 ```
