@@ -83,6 +83,49 @@ This project integrates mechanical design, embedded systems, and automation to d
 
 ---
 
+## ⚙️ System Components
+
+| Component | Function |
+|-----------|----------|
+| Hopper | Stores cattle feed before dispensing |
+| Motor Control Unit | Controls feeding operation based on schedule |
+| Screw Conveyor (Auger) | Transfers feed from hopper to outlet |
+| DC Gear Motor | Drives the auger mechanism |
+| Feed Outlet | Dispenses feed to the cattle |
+| Load Cell *(Planned)* | Measures feed quantity |
+| Ultrasonic Sensor *(Planned)* | Detects hopper feed level |
+| Arduino/ESP32 *(Planned)* | Executes automation logic |
+
+---
+
+## 🔄 Working Process
+
+1. Feed is loaded into the hopper.
+2. The controller checks the scheduled feeding time.
+3. At the scheduled time, the motor is activated.
+4. The auger rotates and transports feed.
+5. Feed is dispensed through the outlet.
+6. Sensors monitor feed quantity and hopper level.
+7. The controller stops the motor after the required quantity has been dispensed.
+8. The system waits until the next feeding cycle.
+
+---
+
+## 🛠 Planned Hardware
+
+- Arduino Uno / ESP32
+- DC Gear Motor
+- Motor Driver Module
+- Hopper
+- Screw Conveyor
+- Load Cell + HX711
+- Ultrasonic Sensor
+- Relay Module
+- Power Supply
+- Mild Steel Frame
+
+---
+
 ## 📂 System Architecture
 
 ```
